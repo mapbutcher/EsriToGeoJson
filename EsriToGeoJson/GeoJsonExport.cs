@@ -61,7 +61,6 @@ namespace EsriToGeoJson
         public string GeoJson
         {
             get { return _geoJson; }
-            set { _geoJson = value; }
         }
 
 
@@ -132,7 +131,6 @@ namespace EsriToGeoJson
                 //initialise the geoJsonFeatureCollection
                 var fc = new FeatureCollection(geoJsonFeatures);
 
-                //todo - set a public property which is the geojson
                 _geoJson = JsonConvert.SerializeObject(fc, Formatting.Indented);
             }
 
