@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriToGeoJson", "EsriToGeoJson\EsriToGeoJson.csproj", "{BE46C6E9-92B2-4502-8814-F7E05F51B12F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoJSON.Net", "..\GeoJSON.Net\src\GeoJSON.Net\GeoJSON.Net.csproj", "{7C0D45ED-681E-4DEC-9910-BAE1211E4889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriToGeoJsonTests", "EsriToGeoJsonTests\EsriToGeoJsonTests.csproj", "{71765EC8-892C-4B63-B19B-FC0B96D8B358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Debug|x86.ActiveCfg = Debug|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Debug|x86.Build.0 = Debug|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Release|Any CPU.ActiveCfg = Release|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Release|x86.ActiveCfg = Release|x86
+		{BE46C6E9-92B2-4502-8814-F7E05F51B12F}.Release|x86.Build.0 = Release|x86
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7C0D45ED-681E-4DEC-9910-BAE1211E4889}.Release|x86.ActiveCfg = Release|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{71765EC8-892C-4B63-B19B-FC0B96D8B358}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
