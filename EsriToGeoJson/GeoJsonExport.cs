@@ -73,7 +73,7 @@ namespace EsriToGeoJson
         /// </summary>
         /// <param name="results">The results.</param>
         /// <param name="exportProperties">The export properties.</param>
-        public void CreateExport(IRecordSet2 results, string geometryFieldName)
+        public void CreateExport(IRecordSet results, string geometryFieldName)
         {
             if (results != null)
             {
