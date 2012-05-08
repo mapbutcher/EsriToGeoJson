@@ -29,8 +29,9 @@
 		var geojsonLayer = new L.GeoJSON();
 		
 		geojsonLayer.on("featureparse", function (e) {
-			if (e.properties && e.properties.popupContent){
+			if (e.properties && e.properties.popupContent && e.properties.style && e.layer.setStyle){
 				e.layer.bindPopup(e.properties.popupContent);
+				e.layer.setStyle(e.properties.style);
 			}
 		});
 

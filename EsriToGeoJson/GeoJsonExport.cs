@@ -131,7 +131,9 @@ namespace EsriToGeoJson
                 //initialise the geoJsonFeatureCollection
                 var fc = new FeatureCollection(geoJsonFeatures);
 
-                _geoJson = JsonConvert.SerializeObject(fc, Formatting.Indented);
+                //to keep the export small, use formatting = none and exclude null values
+                //todo - allow the null value handling and indentation to be exposed
+                _geoJson = JsonConvert.SerializeObject(fc, Formatting.None, new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.Ignore });
             }
 
         }
